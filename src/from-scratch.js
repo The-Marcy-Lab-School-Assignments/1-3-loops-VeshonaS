@@ -1,3 +1,4 @@
+/** FEEDBACK: Overall, great job with this assignment! You are killing it!!!! */
 const loop0UpTo10 = () => {
   for (let i = 0; i < 10; i++){
     console.log(i)
@@ -29,6 +30,19 @@ for (let i = 0; i < num ; i++)
 console.log(i)
 };
 // loopUpToNum(18)
+/** FEEDBACK: Typically when writing conditional statements you would write them like this: 
+ * if(){
+ * 
+ * } else if(){
+ * 
+ * } else if(){
+ * 
+ * } else {
+ * 
+ * }
+ * 
+ * In this example, I want you to really notice the spacing! Writing code like shown above will make it easier to read for yourself and other developers!
+ */
 const fizzbuzz = () => {
   for (let i = 1; i <= 100; i++){
     if (i % 3 === 0 && i % 5 === 0) {
